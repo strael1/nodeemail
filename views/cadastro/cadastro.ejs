@@ -1,0 +1,14 @@
+<%- include('../includes/head.ejs') %>
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+    <main class="main">
+        <h1 class="title">Cadastro</h1>
+        <form action="/cadastro" method="POST">
+            <input type="text" name="nomeCad" placeholder="Nome" />
+            <input type="email" name="emailCad" placeholder="exemplo@hotmail.com" />
+            <input type="tel" name="telefoneCad" placeholder="(11)97783-4798">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+<%- include('../includes/end.ejs') %> 

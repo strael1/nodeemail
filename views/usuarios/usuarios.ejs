@@ -1,0 +1,19 @@
+<%- include('../includes/head.ejs') %>
+<!-- Style or script tags here... -->
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+    <main class="main-users">
+        <h1 class="title">Usuários</h1> 
+        <section class="card">
+            <% users.forEach(user => { %> 
+                <div class="card-box">
+                    <p>NOME: <%= user.nome %></p>
+                    <p>EMAIL: <%= user.email %></p>
+                    <p>TELEFONE: <%= user.telefone %></p>
+                </div>
+            <% }) %> 
+        </section>
+    </main>
+
+<%- include('../includes/end.ejs') %> 

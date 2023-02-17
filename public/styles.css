@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+.main .title {
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    font-weight: 900;
+}
+
+
+.main-users {
+    margin: auto;
+    width: 90%;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+.main-users .card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.main-users .card-box {
+    border: solid 1px #cecece;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 10%);
+    background: #111;
+    color: white;
+    border-left: solid 10px orange;
+}
+
+.main-users .title {
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    font-weight: 900;
+}
+
+input {
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px #cecece;
+    outline: none;
+    font-size: 16px;
+    color: #464545;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px #cecece;
+    outline: none;
+    font-size: 16px;
+    color: #464545;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px #7bc630;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    background: #7bc630;
+    width: fit-content;
+}
